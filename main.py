@@ -1,10 +1,12 @@
 from pygame import *
 from random import *
+
 # music
 #mixer.init()
 #mixer.music.load('fire.ogg')
 #mixer.music.play()
 #fire_sound = mixer.Sound('fire.ogg')
+
 # create window with background
 win_width = 700
 win_height = 500
@@ -45,7 +47,7 @@ class Enemy(GameSprite):
             self.rect.x = randint(80, win_width -80)
             lost += 1
 
-
+# class for Player
 class Player(GameSprite):
     def update(self):
         keys = key.get_pressed()
@@ -62,8 +64,7 @@ class Player(GameSprite):
         bullet = Bullet('Bullet.png', self.rect.centerx, self.rect.top, 15, 20, 15)
         bullets.add(bullet)
 
-
-
+# class for Bullets
 class Bullet(GameSprite):
     def update(self):
         self.rect.y -= self.speed
