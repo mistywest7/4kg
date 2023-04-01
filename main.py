@@ -6,6 +6,9 @@ from random import *
 #mixer.music.load('fire.ogg')
 #mixer.music.play()
 #fire_sound = mixer.Sound('fire.ogg')
+#gyfh hdrsdtsezrtezsrtfrdgxsrgdrdgsrdtsgredsrdgesefsgredsgresgres
+#htdfsdrtydrytrtdhthrduhthdtrhdthddhdrhtdytrhdtrhdtrhrhdrthtdrhdh
+#ytjufdhhtrfhdthdrhrdthtrshtrdyhtrdyhtdrhtdhtrdhdrhdrthdhdrhthdrhdtrh
 
 # create window with background
 win_width = 700
